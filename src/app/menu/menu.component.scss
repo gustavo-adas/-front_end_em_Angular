@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25136c;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+
+  div {
+    display: flex;
+
+    h1 {
+      border: 2px solid white;
+      padding: 0.5rem;
+      color: white;
+      font-size: 26px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+  }
+
+  div:last-child {
+    justify-content: flex-end;
+    flex: 1;
+  }
+
+  a {
+    color: white;
+  }
+}

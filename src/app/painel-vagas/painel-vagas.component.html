@@ -1,0 +1,29 @@
+<section>
+  <h2>Cadastre ou Atualize uma Vaga</h2>
+  <form>
+    <div>
+      <label>Identificador - ID</label>
+      <input type="number" name="id" [(ngModel)]="vaga.id">
+    </div>
+    <div>
+      <label>Nome</label>
+      <input type="text" name="nome" [(ngModel)]="vaga.nome">
+    </div>
+    <div>
+      <label>Foto</label>
+      <input type="text" name="foto" [(ngModel)]="vaga.foto">
+    </div>
+    <div>
+      <label>Descrição</label>
+      <input type="text" name="descricao" [(ngModel)]="vaga.descricao">
+    </div>
+    <div>
+      <label>Salário</label>
+      <input type="number" name="salario" [(ngModel)]="vaga.salario">
+    </div>
+    <div>
+      <button type="button" (click)="cadastrar()">Cadastrar</button>
+      <button type="button" (click)="atualizar(vaga.id)">Atualizar</button>
+    </div>
+  </form>
+</section>

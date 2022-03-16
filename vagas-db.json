@@ -1,0 +1,25 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "Front-End Senior",
+      "foto": "foto1.jpg",
+      "descricao": "Responsável por desenvolver interfaces utilizando React.",
+      "salario": 8700
+    },
+    {
+      "id": 2,
+      "nome": "Back-End Pleno",
+      "foto": "foto2.jpg",
+      "descricao": "Desenvolver APIS e aplicar regras de negócio em JAVA.",
+      "salario": 5100
+    },
+    {
+      "id": 3,
+      "nome": "Full-Stack Junior",
+      "foto": "foto3.jpg",
+      "descricao": "Programar APIs integradas com interfaces (JAVA + React).",
+      "salario": 2900
+    }
+  ]
+}
